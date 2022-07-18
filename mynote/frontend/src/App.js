@@ -2,12 +2,12 @@ import './App.css';
 import Header from './components/Header'
 import NotesListPage from './pages/NotesListPage';
 import NotePage from './pages/NotePage';
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter, Route, Routes} from 'react-router-dom'
 
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container dark">
         <div className='app'>
           <Header />
@@ -17,7 +17,7 @@ const App = () => {
             </Routes>
           </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
