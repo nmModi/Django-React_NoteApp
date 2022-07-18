@@ -48,7 +48,7 @@ python manage.py runserver
 ### App Preview :
 
 <div align="center">
-<img width="50%" src=""/>
+<img width="50%" src="https://github.com/nmModi/Django-React_NoteApp/blob/main/screenshot.png"/>
 </div>
 
 #
